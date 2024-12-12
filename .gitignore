@@ -6,3 +6,5 @@
 *.iml
 out
 gen
+.env
+.env.production
