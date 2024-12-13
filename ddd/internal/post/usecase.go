@@ -21,9 +21,15 @@ func (uc *UseCase) CreatePost(post *Post) error {
 }
 
 func (uc *UseCase) UpdatePost(id bson.ObjectID, post *Post) error {
+	existingPost, err := uc.GetPostByID(id)
+	if err != nil {
+		return err
+	}
+	post.CreatedAt = existingPost.CreatedAt
 	post.UpdatedAt = time.Now()
 	return uc.repo.Update(id, *post)
 }
+
 func (uc *UseCase) DeletePost(id bson.ObjectID) error {
 	return uc.repo.Delete(id)
 }
