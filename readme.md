@@ -3,9 +3,9 @@
 ![Go](https://img.shields.io/badge/Go-1.23-blue?logo=go)
 ![Gin](https://img.shields.io/badge/Framework-Gin-green?logo=go)
 ![MongoDB](https://img.shields.io/badge/Database-MongoDB-brightgreen?logo=mongodb)
-![License](https://img.shields.io/github/license/abdorrahmani/golang-clean-architectures)
+![License](https://img.shields.io/github/license/abdorrahmani/golang-clean-architectures-mongo)
 [![Website](https://img.shields.io/badge/Website-Online-brightgreen?style=flat&logo=google-chrome)](https://anophel.com)
-![Stars](https://img.shields.io/github/stars/abdorrahmani/golang-clean-architectures?style=social)
+![Stars](https://img.shields.io/github/stars/abdorrahmani/golang-clean-architectures-mongo?style=social)
 ---
 
 ## Overview
@@ -48,8 +48,8 @@ This repository is a collection of **Clean Architecture** examples implemented i
 ## Installation
 
 ```bash
-git clone https://github.com/abdorrahmani/golang-clean-architectures.git
-cd golang-clean-architectures
+git clone https://github.com/abdorrahmani/golang-clean-architectures-mongo.git
+cd golang-clean-architectures-mongo
 go mod tidy
 ```
 
